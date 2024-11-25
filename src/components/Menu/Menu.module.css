@@ -1,17 +1,18 @@
 .menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 0rem 0;
-    background-color: #E89B04;
+    padding: 0rem 1rem;
+    background-color: rgb(230, 162, 36);
     transition: background-color 0.3s ease-in-out;
 }
 
-ul {
-    list-style: none;
+.menuList {
     display: flex;
     gap: 2rem;
     padding: 0;
+    flex-grow: 1;
+    justify-content: center;
 }
 
 li a {
@@ -19,7 +20,6 @@ li a {
     font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
-    padding: 0.5rem 1rem;
     border-radius: 25px;
 }
 
@@ -31,4 +31,15 @@ li a:hover {
     background-color: #013396;
     border: 9px solid #013396;
     border-radius: 5px;
+}
+
+.carrinhoButton {
+    background-color: rgb(10, 172, 10);
+    color: white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.carrinhoButton.active {
+    background-color: rgb(6, 158, 6);
 }

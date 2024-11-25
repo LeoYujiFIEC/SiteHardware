@@ -5,7 +5,7 @@ const Menu = ({ paginaAtual, setPaginaAtual }) => {
 
   return (
     <div className={menuClass}>
-      <ul>
+      <ul className={styles.menuList}>
         <li>
           <a href="#home" onClick={() => setPaginaAtual('home')} className={`${paginaAtual === 'home' ? styles.active : ''} ${styles.button}`}>
             Home
@@ -26,12 +26,15 @@ const Menu = ({ paginaAtual, setPaginaAtual }) => {
             Login
           </a>
         </li>
-        <li>
-          <a href="#carrinho" onClick={() => setPaginaAtual('carrinho')} className={`${paginaAtual === 'carrinho' ? styles.active : ''} ${styles.button}`}>
-            Carrinho
-          </a>
-        </li>
       </ul>
+      <li>
+          <a 
+              href="#carrinho" 
+              onClick={() => setPaginaAtual('carrinho')} 
+              className={`${paginaAtual === 'carrinho' ? styles.active : ''} ${styles.carrinhoButton}`}>
+              🛒 CARRINHO
+          </a>
+      </li>
     </div>
   );
 };
