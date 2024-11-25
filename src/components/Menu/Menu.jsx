@@ -27,8 +27,8 @@ const Menu = ({ paginaAtual, setPaginaAtual }) => {
           </a>
         </li>
         <li>
-          <a href="#sobre" onClick={() => setPaginaAtual('sobre')} className={`${paginaAtual === 'sobre' ? styles.active : ''} ${styles.button}`}>
-            Sobre
+          <a href="#carrinho" onClick={() => setPaginaAtual('carrinho')} className={`${paginaAtual === 'carrinho' ? styles.active : ''} ${styles.button}`}>
+            Carrinho
           </a>
         </li>
       </ul>
