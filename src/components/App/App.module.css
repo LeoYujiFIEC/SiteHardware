@@ -1,0 +1,38 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: #E89B04;
+    transition: background-color 0.3s ease-in-out;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+}
+
+li a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 5px solid transparent;
+}
+
+li a:hover {
+    background-color: #a16c02;
+    border: 5px solid #a16c02;
+    color: #ffffff;
+}
+
+.button.active {
+    background-color: #a16c02;
+    border: 5px solid #a16c02; 
+    border-radius: 5px; 
+}
+
