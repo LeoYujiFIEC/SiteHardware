@@ -1,0 +1,50 @@
+.container {
+    border-left: 200px solid rgb(27, 27, 27);
+    border-right: 200px solid rgb(27, 27, 27);
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+#forn-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.forms-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.forms-control {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.forms-control label {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+    color: #000000;
+}
+
+.forms-control input {
+    padding: 1rem 0.5rem;
+}
+
+.action-control {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.clear-btn {
+    background-color: #444 !important ; 
+}

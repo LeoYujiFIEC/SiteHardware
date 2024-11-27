@@ -1,0 +1,25 @@
+.container {
+    border-left: 200px solid rgb(27, 27, 27);
+    border-right: 200px solid rgb(27, 27, 27);
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#desc {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+iframe {
+    width: 25%;
+    height: 300px;
+    border: 0;
+}

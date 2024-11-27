@@ -17,13 +17,18 @@ const Menu = ({ paginaAtual, setPaginaAtual }) => {
           </a>
         </li>
         <li>
-          <a href="#cadastro" onClick={() => setPaginaAtual('cadastro')} className={`${paginaAtual === 'cadastro' ? styles.active : ''} ${styles.button}`}>
-            Cadastro
+          <a href="#cliente" onClick={() => setPaginaAtual('cliente')} className={`${paginaAtual === 'cliente' ? styles.active : ''} ${styles.button}`}>
+            Cliente
           </a>
         </li>
         <li>
-          <a href="#login" onClick={() => setPaginaAtual('login')} className={`${paginaAtual === 'login' ? styles.active : ''} ${styles.button}`}>
-            Login
+          <a href="#fornecedor" onClick={() => setPaginaAtual('fornecedor')} className={`${paginaAtual === 'fornecedor' ? styles.active : ''} ${styles.button}`}>
+            Fornecedor
+          </a>
+        </li>
+        <li>
+          <a href="#sobre" onClick={() => setPaginaAtual('sobre')} className={`${paginaAtual === 'sobre' ? styles.active : ''} ${styles.button}`}>
+            Sobre
           </a>
         </li>
       </ul>
